@@ -7,7 +7,7 @@ const HotjarProvider: React.FC = () => {
     hotjarConfigInit();
   }, []);
 
-  return <div />;
+  return <React.Fragment />;
 }
 
 export default HotjarProvider;
