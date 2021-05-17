@@ -15,7 +15,7 @@ const Home: React.FC = () => {
       <div className="card">
         <h1>Hello dear!!</h1>
         <p>Hotjar has been configured!!</p>
-        {count && count !== 0 && (
+        {count !== 0 && (
           <React.Fragment>
             <p>Count will be shown in HotJar</p>
             <p className="count">{count}</p>
